@@ -1,0 +1,97 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: 0;
+}
+.navbar_pri{
+    width: 100%;
+    height: 100px;
+}
+
+.icono img{
+    margin-left: 10%;
+    width: 60px;
+    height: 60px;
+}
+.logos img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+/* carrusel  */
+#carouselExampleCaptions img{
+    width: 100%;
+    height: 750px;
+}
+#indicadores_carrusel {
+    background: green;
+    border-radius: 100%;
+}
+
+.iconPrev{
+    background: black;
+    border-radius: 30%;
+}
+
+/* tarjetas  */
+.colum{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+}
+.tarjeta{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+     /* border: solid black;  */
+    margin-left: 20%;
+    margin: 5%;
+    box-shadow: 5px 5px 15px  0 #111;
+}
+
+.tamaño{
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+}
+/* .tarjeta p{
+    text-align: center;
+    width: 350px;
+    height: 100px;
+} */
+
+.precio{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: green;
+}
+.cantidad{
+    margin-top: 3px;
+    height: 30px;
+    width: 30px;
+    border: solid green;
+    border-radius: 100%;
+}
+
+.botones button{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    border: solid green;
+    border-radius: 100%;
+    width: 30px;
+    height:30px ;
+    text-align: center;
+    margin: 3px;
+}
+#carrito {
+    text-align:center;
+    color: black;
+    width: 100px;
+    height: 80px;
+    margin-right: 50px;
+}
+
